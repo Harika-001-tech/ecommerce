@@ -1,0 +1,58 @@
+/* Card.css */
+
+/* Container for the card */
+.card {
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Image container */
+  .card-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Card text content */
+  .card-text {
+    padding: 15px;
+  }
+  
+  .up-text {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .card-text h1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-text h2 {
+    font-size: 1.1rem;
+    color: #f56b00;
+  }
+  
+  .detail {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .cart-button {
+    margin-top: 10px;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  

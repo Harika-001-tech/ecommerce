@@ -1,0 +1,64 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f8f8;
+    align-items: center; /* Ensures vertical centering */
+  }
+  
+  .left-header {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .left-header h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: #333;
+  }
+  
+  .left-header p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .check-button {
+    color: #007BFF;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  .check-button:hover {
+    color: #0056b3; /* Darker blue on hover for better interaction */
+  }
+  
+  .right-header img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px; /* Adjust the max height as necessary */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 8px; /* Optional: adds rounded corners to the image */
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      text-align: center;
+      align-items: center; /* Centers content vertically and horizontally on smaller screens */
+    }
+  
+    .left-header {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .right-header img {
+      max-height: 200px; /* Reduces the image size on smaller screens */
+    }
+  }
+  
