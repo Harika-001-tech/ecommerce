@@ -1,0 +1,12 @@
+.product-data {
+    display: flex;
+    flex-wrap: wrap; /* makes it responsive */
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+    margin: 0 auto; /* centers content */
+    max-width: 1200px;
+    box-sizing: border-box;
+  }
+  

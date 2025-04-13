@@ -1,0 +1,32 @@
+.f-heading {
+    text-align: center;
+    padding: 30px 0 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #222;
+  }
+  
+  .f-main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  
+  .loading-spinner {
+    text-align: center;
+    padding: 60px 0;
+    font-size: 1.4rem;
+    color: #666;
+  }
+  
+  .no-products {
+    text-align: center;
+    padding: 60px 0;
+    font-size: 1.4rem;
+    color: #999;
+  }
+  
